@@ -275,18 +275,4 @@ async def unban(ctx, *, member):
             await ctx.send(f'Desbanneado {user.mention}')
             return
 
-@client.command(aliases=['dharma', 'aniversario'])
-async def Dharma(ctx):
-    await ctx.send('Puedes creer que llevamos ya un año? Mas el tiempo anterior, son ya prácticamente 5 años conociendonos y compartiendo.')
-    await asyncio.sleep(3)
-    await ctx.send('Hemos crecido, hemos cambiado y aquí seguimos, no sonaré pretencioso diciendo que si ya pudimos con esto podemos con todo sin problema, pero si que es prueba de que somos buen equipo, y me has enseñado a trabajar contigo, quiero que trabajes tambien bien conmigo, y quiero seguir en este equipo, empiezo a entender que el amor no es solo compartir tiempo con alguien, ni siquiera es entenderlos, es aceptarlos, ayudarlos, apoyarlos y colaborar en.. la vida.')
-    await asyncio.sleep(5)
-    await ctx.send('Amar no es solo querer, porque querer es egoísta, es querer que la otra persona esté bien y ver por ella, y bueno es fácil decirlo, estoy sentado en mi cuarto mientras lo escribo, pero antes mi percepción de amor era más egoísta y sin embargo creía que era más apasionada, veía por mi placer final, hacer esto para que esa persona este conmigo, como una presa y trampas, ahora lo veo como alguien que quiero que suba en las escaleras de la vida jaja y ponerle escalones, tampoco quiero que pienses que siempre fue así mi manera de amar, puramente egoísta, y nunca tuve tintes de este amor no egoísta, pero lo que sí es que no era tan consciente, ahora lo soy más.')
-    await asyncio.sleep(5)
-    await ctx.send('Tambien quiero decirte que estoy muy agradecido por que me escuchas y estas para mi, quiero ser recíproco.')
-    await asyncio.sleep(3)
-    await ctx.send('Y con esto, espero sigamos funcionando como pareja por un largo tiempo, hasta que otra pandemia nos exterminé o hasta que nuestras consciencias trasciendan ya sea fuera del mundo físico o dentro de una supercomputadora donde podramos disfrutar de una existencia desmaterializada, jajaja te amo Dharma, quiero seguir haciendolo y quiero divertirme y ser feliz a tu lado, y quiero que tu lo estés y lo seas también, quiero que cumplas todas tus metas, te apoyaré y ayudaré en lo que pueda, aquí estoy. ~Diego\n')
-    await asyncio.sleep(3)
-    await ctx.send('Y si, lo último son puras peticiones de mi ego, no he podido desprender el amor de mi ego, pero poco a poco, y mientras no hagan daño y vean por tu bien, se lo concedo.')
-
-client.run('NjkxMDkwNDA0MTcwNTMwOTEy.Xna65g.bP9QqVYyduykJX6pg2DWrm1wNWY')
+client.run('TOKEN')
